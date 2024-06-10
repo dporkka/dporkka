@@ -1,6 +1,6 @@
-# Hi, I'm a web designer and developer.
+# Hi, I'm a web designer and developer
 
-### I enjoy learning about the latest tech, contributing to open-source projects, and applying my skills to solve problems for businesses. 
+### I enjoy learning about the latest tech, contributing to open-source projects, and applying my skills to solve problems. 
 
 ### If you're interested in working together, send me a message. 
 
