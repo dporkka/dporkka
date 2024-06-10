@@ -1,4 +1,4 @@
-# Hi, I'm a web designer and developer
+# Hi, I'm a Web Designer and Developer
 
 ### I enjoy learning about the latest tech, contributing to open-source projects, and applying my skills to solve problems. 
 
