@@ -41,6 +41,7 @@ You can use the website to generate badges: https://shields.io/
   ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
   ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
   ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
+  <img src="https://img.shields.io/badge/-Express.js-333333?style=flat">
   ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
   ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
   
@@ -55,6 +56,8 @@ You can use the website to generate badges: https://shields.io/
   
 **🔧 &nbsp;**
   ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
+  <img src="http://img.shields.io/badge/-Heroku-333333?style=flat&logo=heroku&logoColor=white">
+<img src="http://img.shields.io/badge/-Vercel-333333?style=flat&logo=vercel&logoColor=white">
   
  **🖥 &nbsp;**
   ![Illustrator](https://img.shields.io/badge/-Illustrator-333333?style=flat&logo=adobe-illustrator)
