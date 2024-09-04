@@ -14,6 +14,7 @@ You can use the website to generate badges: https://shields.io/
 
 <!-- Any image aligned to the right. Beware the width -->
 <!-- Icons can be found at Emojiterra https://emojiterra.com/ -->
+<img src="https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif" width="40%" align="right">
 
  **👨🏽‍💻 Working on: <a href="https://nulango.com">Nulango</a>**
  
@@ -25,7 +26,7 @@ You can use the website to generate badges: https://shields.io/
  
  **🧑‍💼 Open to software engineering positions**
  
- **📫 How to reach me: email davidporkka@gmail.com or connect on LinkedIn**
+ **📫 Email <a href="mailto:davidporkka@gmail.com">davidporkka@gmail.com</a> or connect on <a href="https://www.linkedin.com/in/david-porkka">LinkedIn**
 
 
 ## Languages and Tools: 
