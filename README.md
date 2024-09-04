@@ -13,7 +13,6 @@ You can use the website to generate badges: https://shields.io/
 ## I'm Now:
 
 <!-- Any image aligned to the right. Beware the width -->
-<!-- <img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/dporkka/.github/master/.resources/git-header.svg" /> -->
 <!-- Icons can be found at Emojiterra https://emojiterra.com/ -->
 
  **👨🏽‍💻 Working on: <a href="https://nulango.com">Nulango</a>**
@@ -34,6 +33,7 @@ You can use the website to generate badges: https://shields.io/
   <!-- Your languages and tools. Be careful with the alignment. 
   You can use this sites to get logos: https://www.vectorlogo.zone or https://simpleicons.org/
   -->
+<img width="40%" height="180em" align="right" alt="Github" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dporkka&theme=buefy&layout=compact" /> 
 
 **💻 &nbsp;**
   ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
@@ -63,14 +63,7 @@ You can use the website to generate badges: https://shields.io/
 
 **🔨 &nbsp;<a href="https://davidporkka.com/tools/">Other tools I use and recommend</a>**
 
-<br/>
-
-<a href="https://github.com/dporkka">
-<!--   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dporkka&theme=buefy&show_icons=true" /> -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dporkka&theme=buefy&layout=compact" />
-</a>
-
-<p></p>
+<br>
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S7YJ9T1)
 
