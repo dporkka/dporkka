@@ -70,7 +70,6 @@ You can use the website to generate badges: https://shields.io/
   ![Illustrator](https://img.shields.io/badge/-Illustrator-333333?style=flat&logo=adobe-illustrator)
   ![Photoshop](https://img.shields.io/badge/-Photoshop-333333?style=flat&logo=adobe-photoshop)
   ![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma)
-  ![InDesign](https://img.shields.io/badge/-InDesign-333333?style=flat&logo=adobe-indesign)
 
 **🌐 &nbsp;**
   ![WordPress](https://img.shields.io/badge/-WordPress-333333?style=flat&logo=wordpress)
