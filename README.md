@@ -16,7 +16,7 @@ You can use the website to generate badges: https://shields.io/
 <!-- <img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" /> -->
 
 <ul style="list-style-type: none">
- <li> 👨🏽‍💻 Working on [Nulango](https://nulango.com)</li>
+ <li> 👨🏽‍💻 Working on <a href="https://nulango.com">Nulango</a></li>
  <li> 🌱 Learning React and Next.js;</li>
  <li> 🌟 Open to software engineering positions;</li>
  <li> 📫 How to reach me: davidporkka@gmail.com;</li>
