@@ -13,41 +13,72 @@ You can use the website to generate badges: https://shields.io/
 ## I'm Now:
 
 <!-- Any image aligned to the right. Beware the width -->
-<!-- <img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" /> -->
+<!-- <img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/dporkka/.github/master/.resources/git-header.svg" /> -->
+<!-- Icons can be found at Emojiterra https://emojiterra.com/ -->
 
-<ul style="list-style-type: none">
- <li> 👨🏽‍💻 Working on <a href="https://nulango.com">Nulango</a></li>
- <li> 🌱 Learning React and Next.js;</li>
- <li> 🌟 Open to software engineering positions;</li>
- <li> 📫 How to reach me: davidporkka@gmail.com;</li>
-</ul>
+ **👨🏽‍💻 Working on: <a href="https://nulango.com">Nulango</a>**
+ 
+ **🌱 Learning React and Next.js**
 
-## Languages and Tools:
+ **📙 Reading <a href="https://www.davidporkka.com/books">Books</a>** 
+
+ **🎵 Listening to: <a href="https://open.spotify.com/user/wilhelm_lavender?si=cdc81a4db6d44620&nd=1&dlsi=b96f280269ee47ab">Music</a>** 
+ 
+ **🧑‍💼 Open to software engineering positions**
+ 
+ **📫 How to reach me: email davidporkka@gmail.com or connect on LinkedIn**
+
+
+## Languages and Tools: 
   
   <!-- Your languages and tools. Be careful with the alignment. 
   You can use this sites to get logos: https://www.vectorlogo.zone or https://simpleicons.org/
   -->
 
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/json/json-ar21.svg"></code>
-  <br />
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg"></code>
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg"></code>
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg"></code>
-  <br />
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"></code>
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/yaml/yaml-ar21.svg"></code>
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-ar21.svg"></code>
-</p>
+**💻 &nbsp;**
+  ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
+  ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
+  ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+  ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
+  ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
+  ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
+  
+**🛢 &nbsp;**
+  ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
+  ![MongoDB](https://img.shields.io/badge/-MongoDB-333333?style=flat&logo=mongodb)
 
-<br></br>
+**⚙️ &nbsp;**
+  ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
+  ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+  ![Markdown](https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown)
+  
+**🔧 &nbsp;**
+  ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
+  
+ **🖥 &nbsp;**
+  ![Illustrator](https://img.shields.io/badge/-Illustrator-333333?style=flat&logo=adobe-illustrator)
+  ![Photoshop](https://img.shields.io/badge/-Photoshop-333333?style=flat&logo=adobe-photoshop)
+  ![InDesign](https://img.shields.io/badge/-InDesign-333333?style=flat&logo=adobe-indesign)
+
+
+**🔨 &nbsp;<a href="https://davidporkka.com/tools/">Other tools I use and recommend</a>**
+
+<br/>
+
+<a href="https://github.com/dporkka">
+<!--   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dporkka&theme=buefy&show_icons=true" /> -->
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dporkka&theme=buefy&layout=compact" />
+</a>
+
+<p></p>
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S7YJ9T1)
 
 <!-- ### :zap: Recent Activity -->
 <!--START_SECTION:activity-->
-
 <!--END_SECTION:activity-->
 
-
+<br>
 <p align="left">
   <img alt="ViewCount" src="https://views.whatilearened.today/views/github/dporkka/dporkka.svg" />
 </p>
