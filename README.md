@@ -75,15 +75,31 @@ You can use the website to generate badges: https://shields.io/
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
-<br>
-<p align="left">
-  <img alt="ViewCount" src="https://views.whatilearened.today/views/github/dporkka/dporkka.svg" />
-</p>
 
 <!-- Your hits or visitors
 site: http://hits.dwyl.com or https://visitor-badge.glitch.me
 Both apis are in trouble due to the number of requests, if you know any other to register visitors, great
 -->
+
+## Some jokes
+
+<details>
+<summary> Why did the programmer go broke? <i>(click to expand)</i></summary>
+<br>
+Because he used up all his cache
+</details>
+<br>
+<details>
+<summary> What is a programmer’s favorite hangout place? </summary>
+<br>
+Foo Bar
+</details>
+<br>
+
+<br>
+<p align="left">
+  <img alt="ViewCount" src="https://views.whatilearened.today/views/github/dporkka/dporkka.svg" />
+</p>
 
 <!-- This readme was created by David Porkka - https://github.com/dporkka -->
 By [dporkka](https://github.com/dporkka)
