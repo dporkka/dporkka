@@ -47,7 +47,6 @@ You can use the website to generate badges: https://shields.io/
   <img src="https://img.shields.io/badge/-Express.js-333333?style=flat">
   ![Bash](https://img.shields.io/badge/-Bash-333333?style=flat&logo=bash)
   ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
   ![PHP](https://img.shields.io/badge/-PHP-333333?style=flat&logo=php)
   
