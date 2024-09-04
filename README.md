@@ -9,6 +9,7 @@ You can use the website to generate badges: https://shields.io/
 
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/dporkka)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/david-porkka/)
+[![Twitter Badge](https://img.shields.io/badge/-Twitter-1da1f2?style=flat-square&labelColor=1da1f2&logo=twitter&logoColor=white&link=https://twitter.com/dporkka)](https://twitter.com/dporkka)
 
 ## I'm Now:
 
@@ -40,30 +41,43 @@ You can use the website to generate badges: https://shields.io/
   ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
   ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
   ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+  ![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typescript)
   ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
   <img src="https://img.shields.io/badge/-Express.js-333333?style=flat">
+  ![Bash](https://img.shields.io/badge/-Bash-333333?style=flat&logo=bash)
   ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
+  ![PHP](https://img.shields.io/badge/-PHP-333333?style=flat&logo=php)
   
 **🛢 &nbsp;**
   ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
+  ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=flat&logo=postgresql)
   ![MongoDB](https://img.shields.io/badge/-MongoDB-333333?style=flat&logo=mongodb)
 
 **⚙️ &nbsp;**
   ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
   ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
-  ![Markdown](https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown)
+  ![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
   
 **🔧 &nbsp;**
   ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
   <img src="http://img.shields.io/badge/-Heroku-333333?style=flat&logo=heroku&logoColor=white">
+  <img src="http://img.shields.io/badge/-Netlify-333333?style=flat&logo=netlify&logoColor=white">
 <img src="http://img.shields.io/badge/-Vercel-333333?style=flat&logo=vercel&logoColor=white">
   
  **🖥 &nbsp;**
   ![Illustrator](https://img.shields.io/badge/-Illustrator-333333?style=flat&logo=adobe-illustrator)
   ![Photoshop](https://img.shields.io/badge/-Photoshop-333333?style=flat&logo=adobe-photoshop)
+  ![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=adobe-indesign)
   ![InDesign](https://img.shields.io/badge/-InDesign-333333?style=flat&logo=adobe-indesign)
 
+**🌐 &nbsp;**
+  ![WordPress](https://img.shields.io/badge/-WordPress-333333?style=flat&logo=wordpress)
+  ![Wix](https://img.shields.io/badge/-Wix-333333?style=flat&logo=wix)
+  ![Shopify](https://img.shields.io/badge/-Shopify-333333?style=flat&logo=shopify)
+  ![Squarespace](https://img.shields.io/badge/-Squarepace-333333?style=flat&logo=squarespace)
+  ![Custom](https://img.shields.io/badge/-Custom-333333?style=flat&logo=custom)
 
 **🔨 &nbsp;<a href="https://davidporkka.com/tools/">Other tools I use and recommend</a>**
 
