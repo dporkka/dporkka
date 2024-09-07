@@ -18,17 +18,17 @@ You can use the website to generate badges: https://shields.io/
 <!-- Icons can be found at Emojiterra https://emojiterra.com/ -->
 <img src="https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif" width="40%" align="right">
 
- **👨🏽‍💻 Working on: <a href="https://nulango.com">Nulango</a>**
+ **👨🏽‍💻 Working on: <a href="https://nulango.com" target="_blank">Nulango</a>**
  
  **🌱 Learning React and Next.js**
 
  **📙 Reading <a href="https://www.davidporkka.com/books">Books</a>** 
 
- **🎵 Listening to: <a href="https://open.spotify.com/user/wilhelm_lavender?si=cdc81a4db6d44620&nd=1&dlsi=b96f280269ee47ab">Music</a>** 
+ **🎵 Listening to: <a href="https://open.spotify.com/user/wilhelm_lavender?si=cdc81a4db6d44620&nd=1&dlsi=b96f280269ee47ab" target="_blank">Music</a>** 
  
  **🧑‍💼 Available for hire**
  
- **📫 Email <a href="mailto:davidporkka@gmail.com">davidporkka@gmail.com</a> or connect on <a href="https://www.linkedin.com/in/david-porkka">LinkedIn**
+ **📫 Email <a href="mailto:davidporkka@gmail.com">davidporkka@gmail.com</a> or connect on <a href="https://www.linkedin.com/in/david-porkka" target="_blank">LinkedIn**
 
 
 ## Languages and Tools: 
@@ -78,7 +78,7 @@ You can use the website to generate badges: https://shields.io/
   ![Squarespace](https://img.shields.io/badge/-Squarepace-333333?style=flat&logo=squarespace)
   ![Custom](https://img.shields.io/badge/-Custom-333333?style=flat&logo=custom)
 
-**🔨 &nbsp;<a href="https://davidporkka.com/tools/">Other tools I use and recommend</a>**
+**🔨 &nbsp;<a href="https://davidporkka.com/tools/" target="_blank">Other tools I use and recommend</a>**
 
 <br>
 
@@ -94,12 +94,6 @@ site: http://hits.dwyl.com or https://visitor-badge.glitch.me
 Both apis are in trouble due to the number of requests, if you know any other to register visitors, great
 -->
 
-## Some jokes
-
-<details>
-<summary> Why did the programmer go broke? <i>(click to expand)</i></summary>
-<br>
-Because he used up all his cache
 </details>
 <br>
 <details>
