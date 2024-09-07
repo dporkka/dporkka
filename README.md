@@ -36,7 +36,7 @@ You can use the website to generate badges: https://shields.io/
   <!-- Your languages and tools. Be careful with the alignment. 
   You can use this sites to get logos: https://www.vectorlogo.zone or https://simpleicons.org/
   -->
-<img width="40%" height="180em" align="right" alt="Github" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dporkka&theme=buefy&layout=compact" /> 
+  <!-- <img width="40%" height="180em" align="right" alt="Github" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dporkka&theme=buefy&layout=compact" /> -->
 
 **💻 &nbsp;**
   ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
