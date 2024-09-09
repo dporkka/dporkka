@@ -18,7 +18,7 @@ You can use the website to generate badges: https://shields.io/
 <!-- Icons can be found at Emojiterra https://emojiterra.com/ -->
 <!-- <img src="https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif" width="40%" align="right"> -->
 
- **👨🏽‍💻 Working on: <a href="https://nulango.com" target="_blank">Nulango</a>**
+<!-- **👨🏽‍💻 Working on: <a href="https://nulango.com" target="_blank">Nulango</a>** -->
  
  **🌱 Learning React and Next.js**
 
