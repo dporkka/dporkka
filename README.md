@@ -1,4 +1,5 @@
-<!-- Your title -->
+<div style="background-color:#222222;">
+ 
 ## Hi, I'm a Web Designer and Developer
 
 **I enjoy learning about the latest tech, contributing to open-source projects, and applying my skills to solve problems.**
@@ -17,7 +18,8 @@ You can use the website to generate badges: https://shields.io/
 <!-- Any image aligned to the right. Beware the width -->
 <!-- Icons can be found at Emojiterra https://emojiterra.com/ -->
 
-<img src="https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif" width="40%" align="right"> 
+
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25wOXN1Z2x4NXRnem83Zmo3bGd6a2VpYzNmYnFuZmc1NHZjdmhseSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" width="40%" align="right">
 <!-- <img src="https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif" width="40%" align="right"> -->
 
 <!-- **👨🏽‍💻 Working on: <a href="https://nulango.com" target="_blank">Nulango</a>** -->
@@ -113,4 +115,5 @@ Foo Bar
 <!-- This readme was created by David Porkka - https://github.com/dporkka -->
 By [dporkka](https://github.com/dporkka)
 
-
+<!-- <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTR6N2VqeDZ1OTR3bzhmMTZvNWg3MDhsbmdobjg1Z3lxajBubmkxNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" align="center"> -->
+</div>
