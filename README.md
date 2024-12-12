@@ -16,11 +16,11 @@ You can use the website to generate badges: https://shields.io/
 
 <!-- Any image aligned to the right. Beware the width -->
 <!-- Icons can be found at Emojiterra https://emojiterra.com/ -->
+
+<img src="https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif" width="40%" align="right"> 
 <!-- <img src="https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif" width="40%" align="right"> -->
 
 <!-- **👨🏽‍💻 Working on: <a href="https://nulango.com" target="_blank">Nulango</a>** -->
- 
- **🌱 Learning React and Next.js**
 
  **📙 Reading <a href="https://www.davidporkka.com/books">Books</a>** 
 
