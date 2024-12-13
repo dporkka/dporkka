@@ -6,7 +6,6 @@
 You can use the website to generate badges: https://shields.io/
 -->
 
-
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/dporkka)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/david-porkka/)
 [![Dribbble](https://img.shields.io/badge/-Dribbble-pink?style=flat&logo=Dribbble&logoColor=white)](https://dribbble.com/dapodigital)
@@ -29,7 +28,7 @@ You can use the website to generate badges: https://shields.io/
  
  **🧑‍💼 Available for hire**
  
- **📫 Email <a href="mailto:davidporkka@gmail.com">davidporkka@gmail.com</a>**
+ **📫 Email <a href="mailto:dp@davidporkka.com">dp@davidporkka.com</a>**
  
  **🖇️ Connect on <a href="https://www.linkedin.com/in/david-porkka" target="_blank">LinkedIn**
 
@@ -40,7 +39,6 @@ You can use the website to generate badges: https://shields.io/
   <!-- Your languages and tools. Be careful with the alignment. 
   You can use this sites to get logos: https://www.vectorlogo.zone or https://simpleicons.org/
   -->
-  <!-- <img width="40%" height="180em" align="right" alt="Github" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dporkka&theme=buefy&layout=compact" /> -->
 
 **💻 &nbsp;**
   ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
@@ -93,7 +91,6 @@ You can use the website to generate badges: https://shields.io/
 <!-- ### :zap: Recent Activity -->
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
-
 
 <!-- Your hits or visitors
 site: http://hits.dwyl.com or https://visitor-badge.glitch.me
