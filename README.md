@@ -1,5 +1,5 @@
 ### Hi, I'm a Web Designer and Developer
-<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25wOXN1Z2x4NXRnem83Zmo3bGd6a2VpYzNmYnFuZmc1NHZjdmhseSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" width="40%" align="right">
+<!-- <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25wOXN1Z2x4NXRnem83Zmo3bGd6a2VpYzNmYnFuZmc1NHZjdmhseSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" width="40%" align="right"> -->
 
 **I enjoy learning about the latest tech, contributing to open-source projects, and applying my skills to solve problems.**
 
