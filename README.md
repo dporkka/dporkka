@@ -1,5 +1,5 @@
-
-## Hi, I'm a Web Designer and Developer
+### Hi, I'm a Web Designer and Developer
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25wOXN1Z2x4NXRnem83Zmo3bGd6a2VpYzNmYnFuZmc1NHZjdmhseSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" width="40%" align="right">
 
 **I enjoy learning about the latest tech, contributing to open-source projects, and applying my skills to solve problems.**
 
@@ -7,18 +7,19 @@
 You can use the website to generate badges: https://shields.io/
 -->
 
+
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/dporkka)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/david-porkka/)
 [![Dribbble](https://img.shields.io/badge/-Dribbble-pink?style=flat&logo=Dribbble&logoColor=white)](https://dribbble.com/dapodigital)
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-1da1f2?style=flat-square&labelColor=1da1f2&logo=twitter&logoColor=white&link=https://twitter.com/dporkka)](https://twitter.com/dporkka)
 
-## I'm Now:
+<p></p>
+
+### I'm Now:
 
 <!-- Any image aligned to the right. Beware the width -->
 <!-- Icons can be found at Emojiterra https://emojiterra.com/ -->
 
-
-<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25wOXN1Z2x4NXRnem83Zmo3bGd6a2VpYzNmYnFuZmc1NHZjdmhseSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" width="40%" align="right">
 <!-- <img src="https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif" width="40%" align="right"> -->
 
 <!-- **👨🏽‍💻 Working on: <a href="https://nulango.com" target="_blank">Nulango</a>** -->
@@ -29,10 +30,13 @@ You can use the website to generate badges: https://shields.io/
  
  **🧑‍💼 Available for hire**
  
- **📫 Email <a href="mailto:davidporkka@gmail.com">davidporkka@gmail.com</a> or connect on <a href="https://www.linkedin.com/in/david-porkka" target="_blank">LinkedIn**
+ **📫 Email <a href="mailto:davidporkka@gmail.com">davidporkka@gmail.com</a>**
+ 
+ **🖇️ Connect on <a href="https://www.linkedin.com/in/david-porkka" target="_blank">LinkedIn**
 
+<p></p>
 
-## Languages and Tools: 
+### Languages and Tools: 
   
   <!-- Your languages and tools. Be careful with the alignment. 
   You can use this sites to get logos: https://www.vectorlogo.zone or https://simpleicons.org/
