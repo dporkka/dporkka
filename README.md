@@ -1,5 +1,4 @@
-<div style="background-color:#222222;">
- 
+
 ## Hi, I'm a Web Designer and Developer
 
 **I enjoy learning about the latest tech, contributing to open-source projects, and applying my skills to solve problems.**
