@@ -1,6 +1,6 @@
 ## Hi, I'm a Web Designer and Developer
 
-**I enjoy learning about the latest tech, contributing to open-source projects, and applying my skills to solve problems.**
+<!-- **I enjoy learning about the latest tech, contributing to open-source projects, and applying my skills to solve problems.** -->
 
 <!-- Your badges
 You can use the website to generate badges: https://shields.io/
