@@ -26,7 +26,7 @@ You can use the website to generate badges: https://shields.io/
 
  **🎵 Listening to: <a href="https://open.spotify.com/user/wilhelm_lavender?si=cdc81a4db6d44620&nd=1&dlsi=b96f280269ee47ab" target="_blank">Music</a>** 
  
- **🧑‍💼 Available for <a href="https://davidporkka.com/#contact">hire</a>**
+ **🧑‍💼 Available for <a href="https://davidporkka.com/#contact">Hire</a>**
  
  **📫 Email <a href="mailto:dp@davidporkka.com">dp@davidporkka.com</a>**
  
