@@ -84,7 +84,7 @@ You can use the website to generate badges: https://shields.io/
 
 **🔨 &nbsp;<a href="https://davidporkka.com/tools/" target="_blank">Other tools I use and recommend</a>**
 
-### Donations 
+### Donations:
 
 [Make A Stripe Donation](https://buy.stripe.com/cN26oM84c2oT772dQX)
 
