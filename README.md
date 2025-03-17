@@ -84,9 +84,11 @@ You can use the website to generate badges: https://shields.io/
 
 **🔨 &nbsp;<a href="https://davidporkka.com/tools/" target="_blank">Other tools I use and recommend</a>**
 
-<br>
+### Donations 
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S7YJ9T1)
+[Make A Stripe Donation](https://buy.stripe.com/cN26oM84c2oT772dQX)
+
+[Buy me a Ko-Fi](https://ko-fi.com/S6S7YJ9T1)
 
 <!-- ### :zap: Recent Activity -->
 <!--START_SECTION:activity-->
