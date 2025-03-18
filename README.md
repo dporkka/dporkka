@@ -86,9 +86,9 @@ You can use the website to generate badges: https://shields.io/
 
 ### Donations:
 
-[Make A Stripe Donation](https://buy.stripe.com/cN26oM84c2oT772dQX)
+**[Make A Stripe Donation](https://buy.stripe.com/cN26oM84c2oT772dQX)**
 
-[Buy me a Ko-Fi](https://ko-fi.com/S6S7YJ9T1)
+**[Buy me a Ko-Fi](https://ko-fi.com/S6S7YJ9T1)**
 
 <!-- ### :zap: Recent Activity -->
 <!--START_SECTION:activity-->
