@@ -1,4 +1,4 @@
-## 👋 Hi, I'm David — Web Designer & Developer
+## 👋 Hi, I'm David
 
 I'm a problem-solver who blends **clean code** with **creative design** to build fast, beautiful websites and web apps.
 
