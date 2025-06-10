@@ -27,14 +27,14 @@ I love crafting modern digital experiences, automating workflows, and exploring 
 | **Languages & Frameworks** | **Databases** | **DevOps & Cloud** |
 |----------------------------|---------------|---------------------|
 | ![HTML5](https://img.shields.io/badge/HTML5-333?style=flat&logo=html5) | ![MySQL](https://img.shields.io/badge/MySQL-333?style=flat&logo=mysql) | ![Git](https://img.shields.io/badge/Git-333?style=flat&logo=git) |
-| ![CSS3](https://img.shields.io/badge/CSS3-333?style=flat&logo=css3&logoColor=1572B6) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333?style=flat&logo=postgresql) | ![Docker](https://img.shields.io/badge/Docker-333?style=flat&logo=docker) |
+| ![Bash](https://img.shields.io/badge/Bash-333?style=flat&logo=gnu-bash) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333?style=flat&logo=postgresql) | ![Docker](https://img.shields.io/badge/Docker-333?style=flat&logo=docker) |
 | ![JavaScript](https://img.shields.io/badge/JavaScript-333?style=flat&logo=javascript) | ![MongoDB](https://img.shields.io/badge/MongoDB-333?style=flat&logo=mongodb) | ![AWS](https://img.shields.io/badge/AWS-333?style=flat&logo=amazon-aws) |
 | ![TypeScript](https://img.shields.io/badge/TypeScript-333?style=flat&logo=typescript) |  | ![GCP](https://img.shields.io/badge/GCP-333?style=flat&logo=google-cloud) |
 | ![React](https://img.shields.io/badge/React-333?style=flat&logo=react) |  | ![Heroku](https://img.shields.io/badge/Heroku-333?style=flat&logo=heroku) |
 | ![Node.js](https://img.shields.io/badge/Node.js-333?style=flat&logo=node.js) |  | ![Netlify](https://img.shields.io/badge/Netlify-333?style=flat&logo=netlify) |
 | ![Python](https://img.shields.io/badge/Python-333?style=flat&logo=python) |  | ![Vercel](https://img.shields.io/badge/Vercel-333?style=flat&logo=vercel) |
 | ![PHP](https://img.shields.io/badge/PHP-333?style=flat&logo=php) |  |  |
-| ![Bash](https://img.shields.io/badge/Bash-333?style=flat&logo=gnu-bash) |  |  |
+| |  |  |
 
 ---
 
