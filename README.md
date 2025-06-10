@@ -41,9 +41,9 @@ I love crafting modern digital experiences, automating workflows, and exploring 
 | **Design & UI** | **CMS & No-Code** | **IDEs & Tools** |
 |-----------------|-------------------|------------------|
 | ![Figma](https://img.shields.io/badge/Figma-333?style=flat&logo=figma) | ![WordPress](https://img.shields.io/badge/WordPress-333?style=flat&logo=wordpress) | ![VSCode](https://img.shields.io/badge/VSCode-333?style=flat&logo=visual-studio-code) |
-| ![Photoshop](https://img.shields.io/badge/Photoshop-333?style=flat&logo=adobe-photoshop) | ![Wix](https://img.shields.io/badge/Wix-333?style=flat&logo=wix) |  |
-| ![Illustrator](https://img.shields.io/badge/Illustrator-333?style=flat&logo=adobe-illustrator) | ![Shopify](https://img.shields.io/badge/Shopify-333?style=flat&logo=shopify) |  |
-|  | ![Squarespace](https://img.shields.io/badge/Squarespace-333?style=flat&logo=squarespace) |  |
+| ![Photoshop](https://img.shields.io/badge/Photoshop-333?style=flat&logo=adobe-photoshop) | ![Wix](https://img.shields.io/badge/Wix-333?style=flat&logo=wix) | ![Cursor](https://img.shields.io/badge/Cursor-333?style=flat&logo=cursor)
+| ![Illustrator](https://img.shields.io/badge/Illustrator-333?style=flat&logo=adobe-illustrator) | ![Shopify](https://img.shields.io/badge/Shopify-333?style=flat&logo=shopify) | ![Replit](https://img.shields.io/badge/Replit-333?style=flat&logo=replit)  | 
+| ![Canva](https://img.shields.io/badge/Canva-333?style=flat&logo=canva) | ![Squarespace](https://img.shields.io/badge/Squarespace-333?style=flat&logo=squarespace) |  |
 |  | ![Custom](https://img.shields.io/badge/Custom-333?style=flat&logo=codeberg) |  |
 
 🧰 More tools I use & recommend → [davidporkka.com/tools](https://davidporkka.com/tools/)
