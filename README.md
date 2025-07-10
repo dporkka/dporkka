@@ -1,9 +1,5 @@
 ## 👋 Hi, I'm David
 
-I'm a problem-solver who blends **clean code** with **creative design** to build fast, beautiful websites and web apps.
-
-I love crafting modern digital experiences, automating workflows, and exploring new tools that push the boundaries of what's possible online.
-
 <p align="left">
   <a href="https://github.com/dporkka"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-000?style=flat&logo=github&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/david-porkka/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white"></a>
