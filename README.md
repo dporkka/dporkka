@@ -4,28 +4,6 @@ A full-stack developer who specializes in geospatial, cloud, and AI-driven devel
 
 ---
 
-**🛠️ Skills**
-
-**Languages & Frameworks**
-`HTML5` `JavaScript` `TypeScript` `React` `Node.js` `Python` `PHP` `Bash`
-
-**Databases**
-`MySQL` `PostgreSQL` `MongoDB`
-
-**DevOps & Cloud**
-`Git` `Docker` `AWS` `GCP` `Heroku` `Netlify` `Vercel`
-
-**Design & UI**
-`Figma` `Photoshop` `Illustrator` `Canva`
-
-**CMS & No-Code**
-`WordPress` `Wix` `Shopify` `Squarespace`
-
-**IDEs & Tools**
-`VSCode` `Cursor` `Replit`
-
----
-
 **🔭 What I'm Up To**
 
 **🔹 Currently Reading**:
