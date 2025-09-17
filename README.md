@@ -9,8 +9,8 @@ A full-stack developer who specializes in geospatial, cloud, and AI-driven devel
 **🔹 Currently Reading**:
 [Books](https://www.davidporkka.com/books) 
 
-**🔹 Music & Creativity**:
-Active [Spotify listener](https://open.spotify.com/user/wilhelm_lavender?si=cdc81a4db6d44620&nd=1&dlsi=b96f280269ee47ab) exploring diverse genres
+**🔹 Music**:
+Active [Spotify listener](https://open.spotify.com/user/wilhelm_lavender?si=cdc81a4db6d44620&nd=1&dlsi=b96f280269ee47ab)
 
 **🔹 Available for Projects**:
 Open for [freelance opportunities](https://davidporkka.com/#contact)
