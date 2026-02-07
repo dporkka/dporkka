@@ -4,6 +4,16 @@ A full-stack developer who specializes in geospatial, cloud, and AI-driven devel
 
 ---
 
+## Past Projects
+
+**🗺️ [SignValue Map](https://map.signvalue.com)** - Outdoor advertising map build for the largest billboard consulting firm in the United States. Efficiently renders +28,000 locations, includes custom map-marker pop-ups, street-view and satellite images, inventory search, filtering, and contact form automations.
+
+**🚚 [LIOTA Logistics SaaS](https://www.liota.ai/))** - This project was a collaboration between Liota, Starting Gate Marketing, and a skilled team of designers. My role involved bringing the designs to life with custom code and integrating them into the Wix platform.
+
+**🌐 [Nulango](https://nulango.com))** - Language-learning application with the most common words and phrases for 11 languages. Built from scratch with my brother. 
+
+---
+
 **🔭 What I'm Up To**
 
 **🔹 Currently Reading**:
