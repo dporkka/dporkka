@@ -14,7 +14,7 @@
 ![Supabase](https://img.shields.io/badge/-Supabase-2b2b2b?style=flat-square&logo=supabase&logoColor=3ECF8E)
 
 ![Followers](https://img.shields.io/github/followers/dporkka?style=flat-square&logo=github&label=Followers)
-![Public Repos](https://img.shields.io/badge/Public%20Repos-46-2b2b2b?style=flat-square&logo=github)
+![Repos](https://img.shields.io/badge/Repos-Selected%20Highlights-2b2b2b?style=flat-square&logo=github)
 ![Profile Views](https://komarev.com/ghpvc/?username=dporkka&style=flat-square&color=2b2b2b)
 
 [![Website](https://img.shields.io/badge/Website-davidporkka.com-2b2b2b?style=flat-square&logo=google-chrome&logoColor=white)](https://davidporkka.com)
@@ -53,7 +53,7 @@
 
 ## Open Source Highlights
 
-> Public, original repositories with more than 2,000 source lines and more than 2 commits, ordered by overall impact.
+> Public, original repositories with more than 2,000 source lines and more than 2 commits, ordered roughly by a mix of visible traction, scope, and long-term portfolio importance.
 
 ### [GitNexus-v2](https://github.com/dporkka/GitNexus-v2)
 GitNexus is a browser-native code intelligence engine that turns repositories or ZIP files into an interactive knowledge graph with built-in Graph RAG. It stands out as one of my most ambitious experiments in developer tooling because the full indexing and analysis flow runs client-side through WebAssembly.
