@@ -84,7 +84,7 @@ This project is a Go, Gin, HTMX, and Supabase SaaS starter with a plugin archite
 - 🐦 [Twitter / X](https://twitter.com/dporkka)
 
 ### Things I keep updated
-- �� [Books](https://www.davidporkka.com/books)
+- 📚 [Books](https://www.davidporkka.com/books)
 - 🛠️ [Tools](https://www.davidporkka.com/tools/)
 - 🎵 [Spotify](https://open.spotify.com/user/wilhelm_lavender?si=cdc81a4db6d44620&nd=1&dlsi=b96f280269ee47ab)
 - 🤝 [Hire me](https://davidporkka.com/#contact)
