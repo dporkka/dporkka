@@ -22,7 +22,6 @@ Active [Spotify listener](https://open.spotify.com/user/wilhelm_lavender?si=cdc8
 * 💌 Email: [dp@davidporkka.com](mailto:dp@davidporkka.com)
 * 🔗 LinkedIn: [linkedin.com/in/david-porkka](https://www.linkedin.com/in/david-porkka/)
 * 💻 GitHub: [github.com/dporkka](https://github.com/dporkka)
-* 🎨 Dribbble: [dribbble.com/dapodigital](https://dribbble.com/dapodigital)
 * 🐦 Twitter: [twitter.com/dporkka](https://twitter.com/dporkka)
 * 🌐 Website: [davidporkka.com](https://davidporkka.com)
 
@@ -30,8 +29,9 @@ Active [Spotify listener](https://open.spotify.com/user/wilhelm_lavender?si=cdc8
 
 **☕ Support My Work**
 
+* [Sponsor me](https://github.com/sponsors/dporkka)
 * [Donate with Stripe](https://buy.stripe.com/cN26oM84c2oT772dQX)
-* [Buy Me a Ko-Fi](https://ko-fi.com/S6S7YJ9T1)
+* [Buy me a Ko-Fi](https://ko-fi.com/S6S7YJ9T1)
 
 ---
 
