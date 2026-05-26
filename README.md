@@ -22,7 +22,7 @@ Active [Spotify listener](https://open.spotify.com/user/wilhelm_lavender?si=cdc8
 * 🔗 LinkedIn: [linkedin.com/in/david-porkka](https://www.linkedin.com/in/david-porkka/)
 * 💻 GitHub: [github.com/dporkka](https://github.com/dporkka)
 * 🎨 Dribbble: [dribbble.com/dapodigital](https://dribbble.com/dapodigital)
-* 🐦 Twitter: [twitter.com/dporkka](https://x.com/dporkka)
+* 🐦 Twitter: [x.com/dporkka](https://x.com/dporkka)
 * 🌐 Website: [davidporkka.com](https://www.davidporkka.com)
 
 ---
