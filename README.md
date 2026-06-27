@@ -1,6 +1,6 @@
 ## Hi, I'm David
 
-A full-stack developer who specializes in geospatial, cloud, and AI-driven development.
+A full-stack developer who specializes in geospatial, cloud, and AI-assisted development.
 
 ---
 
