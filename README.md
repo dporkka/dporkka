@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="images/avatar.svg" width="200" height="200" alt="David Porkka" style="border-radius: 50%;" />
-</p>
-
 <h1 align="center">Hi, I'm David</h1>
 
 <p align="center">
