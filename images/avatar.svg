@@ -1,161 +1,302 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
   <defs>
-    <!-- Glow filter for cybernetic elements -->
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <!-- Glow filters for cybernetic elements -->
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
       <feGaussianBlur stdDeviation="2" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-    <filter id="glowStrong" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <filter id="glowStrong" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+    <filter id="blurSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" />
+    </filter>
+    <filter id="blurRim" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" />
+    </filter>
+
     <!-- Clip to circle -->
     <clipPath id="circleClip">
       <circle cx="100" cy="100" r="98" />
     </clipPath>
-    <!-- Gradient for cybernetic eye -->
-    <radialGradient id="cybEye">
-      <stop offset="0%" stop-color="#00ffff" />
-      <stop offset="60%" stop-color="#0088ff" />
-      <stop offset="100%" stop-color="#003366" />
+
+    <!-- Background head glow -->
+    <radialGradient id="bgGlow" cx="100" cy="75" r="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a1a3a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1a1a3a" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="bgGrad">
-      <stop offset="0%" stop-color="#1a1a2e" />
-      <stop offset="100%" stop-color="#0a0a15" />
+
+    <!-- Face shadow (left side) -->
+    <linearGradient id="faceShadow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.15" />
+      <stop offset="35%" stop-color="#000000" stop-opacity="0.04" />
+      <stop offset="70%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Iris gradient -->
+    <radialGradient id="irisGrad" cx="40%" cy="35%">
+      <stop offset="0%" stop-color="#6a9a5a" />
+      <stop offset="60%" stop-color="#5a8a4a" />
+      <stop offset="100%" stop-color="#3a6a2a" />
+    </radialGradient>
+
+    <!-- Implant metallic gradient -->
+    <linearGradient id="implantMetal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#181840" />
+      <stop offset="50%" stop-color="#0a0a1a" />
+      <stop offset="100%" stop-color="#121230" />
+    </linearGradient>
+
+    <!-- Implant skin blend -->
+    <radialGradient id="skinBlend" cx="0" cy="0" r="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#c4956a" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#c4956a" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#c4956a" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Blue tint on right cheek -->
+    <radialGradient id="blueTint" cx="118" cy="80" r="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00aaff" stop-opacity="0.06" />
+      <stop offset="50%" stop-color="#00aaff" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#00aaff" stop-opacity="0" />
     </radialGradient>
   </defs>
 
-  <!-- Background circle -->
-  <circle cx="100" cy="100" r="100" fill="url(#bgGrad)" />
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#0d0d1a" />
+  <circle cx="100" cy="100" r="100" fill="url(#bgGlow)" />
 
-  <!-- All content clipped to circle -->
   <g clip-path="url(#circleClip)">
 
-    <!-- Subtle hex grid background (circuit board feel) -->
-    <g opacity="0.08" stroke="#4488ff" stroke-width="0.5" fill="none">
-      <polygon points="20,80 35,89 35,107 20,116 5,107 5,89" />
-      <polygon points="50,80 65,89 65,107 50,116 35,107 35,89" />
-      <polygon points="80,80 95,89 95,107 80,116 65,107 65,89" />
-      <polygon points="110,80 125,89 125,107 110,116 95,107 95,89" />
-      <polygon points="140,80 155,89 155,107 140,116 125,107 125,89" />
-      <polygon points="170,80 185,89 185,107 170,116 155,107 155,89" />
-      <polygon points="35,98 50,107 50,125 35,134 20,125 20,107" />
-      <polygon points="65,98 80,107 80,125 65,134 50,125 50,107" />
-      <polygon points="95,98 110,107 110,125 95,134 80,125 80,107" />
-      <polygon points="125,98 140,107 140,125 125,134 110,125 110,107" />
-      <polygon points="155,98 170,107 170,125 155,134 140,125 140,107" />
+    <!-- Hex grid (subtle) -->
+    <g opacity="0.04" stroke="#4488ff" stroke-width="0.5" fill="none">
+      <polygon points="10,60 22,67 22,81 10,88 -2,81 -2,67" />
+      <polygon points="34,60 46,67 46,81 34,88 22,81 22,67" />
+      <polygon points="58,60 70,67 70,81 58,88 46,81 46,67" />
+      <polygon points="82,60 94,67 94,81 82,88 70,81 70,67" />
+      <polygon points="106,60 118,67 118,81 106,88 94,81 94,67" />
+      <polygon points="130,60 142,67 142,81 130,88 118,81 118,67" />
+      <polygon points="154,60 166,67 166,81 154,88 142,81 142,67" />
+      <polygon points="178,60 190,67 190,81 178,88 166,81 166,67" />
+      <polygon points="22,78 34,85 34,99 22,106 10,99 10,85" />
+      <polygon points="46,78 58,85 58,99 46,106 34,99 34,85" />
+      <polygon points="70,78 82,85 82,99 70,106 58,99 58,85" />
+      <polygon points="94,78 106,85 106,99 94,106 82,99 82,85" />
+      <polygon points="118,78 130,85 130,99 118,106 106,99 106,85" />
+      <polygon points="142,78 154,85 154,99 142,106 130,99 130,85" />
+      <polygon points="166,78 178,85 178,99 166,106 154,99 154,85" />
     </g>
 
-    <!-- Shoulders -->
-    <ellipse cx="100" cy="200" rx="80" ry="50" fill="#1c1c2e" />
+    <!-- Collar / shoulders -->
+    <path d="M60,155 Q80,140 100,145 Q120,140 140,155 L145,200 L55,200 Z" fill="#1c1c2e" />
+    <path d="M65,148 Q82,135 100,140 Q118,135 135,148" fill="none" stroke="#252540" stroke-width="1" opacity="0.5" />
 
     <!-- Neck -->
-    <rect x="88" y="130" width="24" height="30" fill="#2a2a3e" rx="5" />
+    <rect x="85" y="126" width="30" height="26" rx="8" fill="#d4a574" />
+    <path d="M85,134 Q85,152 90,152" stroke="#b09060" stroke-width="0.8" fill="none" opacity="0.4" />
+    <path d="M115,134 Q115,152 110,152" stroke="#b09060" stroke-width="0.8" fill="none" opacity="0.4" />
 
-    <!-- Head -->
-    <ellipse cx="100" cy="85" rx="42" ry="50" fill="#2a2a3e" />
+    <!-- Left ear -->
+    <ellipse cx="60" cy="82" rx="8" ry="14" fill="#d4a574" />
+    <path d="M61,72 Q57,82 61,92" fill="none" stroke="#c4956a" stroke-width="1.2" opacity="0.5" />
+    <path d="M63,75 Q59,82 63,89" fill="none" stroke="#c4956a" stroke-width="0.6" opacity="0.3" />
 
-    <!-- Hair -->
-    <ellipse cx="100" cy="58" rx="44" ry="30" fill="#1a1a1a" />
-    <ellipse cx="100" cy="70" rx="43" ry="22" fill="#111111" />
+    <!-- Right ear (partial, behind implant side) -->
+    <ellipse cx="140" cy="82" rx="7" ry="12" fill="#c4956a" opacity="0.7" />
+
+    <!-- Head base -->
+    <ellipse cx="100" cy="82" rx="38" ry="48" fill="#e8c9a0" />
+
+    <!-- Face shadow overlay (left side) -->
+    <ellipse cx="100" cy="82" rx="38" ry="48" fill="url(#faceShadow)" />
+
+    <!-- Jawline definition -->
+    <path d="M66,100 Q80,125 100,128 Q120,125 134,100"
+          fill="none" stroke="#c4956a" stroke-width="1.5" opacity="0.45" />
+
+    <!-- Blue tint on right cheek (cybernetic side) -->
+    <ellipse cx="100" cy="82" rx="38" ry="48" fill="url(#blueTint)" />
+
+    <!-- ====== LEFT EYE (organic) ====== -->
+    <!-- Socket shadow -->
+    <ellipse cx="76" cy="80" rx="11" ry="7.5" fill="#c4956a" opacity="0.45" />
+    <!-- Sclera -->
+    <ellipse cx="76" cy="80" rx="9" ry="6.5" fill="#ffffff" />
+    <!-- Iris -->
+    <circle cx="76" cy="80" r="4" fill="url(#irisGrad)" />
+    <!-- Pupil -->
+    <circle cx="76" cy="80" r="2" fill="#111111" />
+    <!-- Corneal highlights -->
+    <ellipse cx="74" cy="78" rx="1.2" ry="0.8" fill="white" opacity="0.85" />
+    <ellipse cx="77.5" cy="81.5" rx="0.6" ry="0.4" fill="white" opacity="0.4" />
+    <!-- Upper eyelid -->
+    <path d="M65,80 Q70,72 76,73 Q82,72 87,80"
+          fill="none" stroke="#8a6a4a" stroke-width="1.5" stroke-linecap="round" />
+    <!-- Lower lash line -->
+    <path d="M67,80 Q72,86 76,86 Q80,86 85,80"
+          fill="none" stroke="#8a6a4a" stroke-width="0.7" stroke-linecap="round" />
+    <!-- Eyebrow (5 individual strokes) -->
+    <path d="M64,71 Q66,68 69,69" fill="none" stroke="#3a2010" stroke-width="1.3" stroke-linecap="round" />
+    <path d="M69,69 Q72,67 75,68" fill="none" stroke="#3a2010" stroke-width="1.2" stroke-linecap="round" />
+    <path d="M75,68 Q78,67 81,68" fill="none" stroke="#3a2010" stroke-width="1.1" stroke-linecap="round" />
+    <path d="M81,68 Q84,69 86,70" fill="none" stroke="#3a2010" stroke-width="1.0" stroke-linecap="round" />
+    <path d="M86,70 Q88,71 87,72" fill="none" stroke="#3a2010" stroke-width="0.8" stroke-linecap="round" />
+
+    <!-- ====== RIGHT EYE (cybernetic) ====== -->
+    <!-- Orbital housing following eye socket -->
+    <path d="M107,78 Q113,70 120,71 Q127,70 133,78 Q127,86 120,85 Q113,86 107,78 Z"
+          fill="#1a1a2e" stroke="#00ccff" stroke-width="1.2" filter="url(#glow)" />
+    <!-- Skin-to-housing blend ring -->
+    <path d="M106,78 Q112,69 120,70 Q128,69 134,78 Q128,87 120,86 Q112,87 106,78 Z"
+          fill="none" stroke="#c4956a" stroke-width="2.5" opacity="0.5" filter="url(#blurSoft)" />
+    <!-- Lens: outer ring -->
+    <circle cx="120" cy="78" r="7.5" fill="none" stroke="#00ccff" stroke-width="0.4" opacity="0.3" />
+    <!-- Lens: mid ring -->
+    <circle cx="120" cy="78" r="5" fill="none" stroke="#00ccff" stroke-width="0.7" opacity="0.5" />
+    <!-- Lens: inner ring -->
+    <circle cx="120" cy="78" r="2.5" fill="none" stroke="#00ffcc" stroke-width="1" filter="url(#glow)" />
+    <!-- Lens: core -->
+    <circle cx="120" cy="78" r="1.2" fill="#00ffcc" filter="url(#glowStrong)" />
+    <!-- Reticle crosshair -->
+    <line x1="112" y1="78" x2="128" y2="78" stroke="#00ccff" stroke-width="0.3" opacity="0.25" />
+    <line x1="120" y1="70" x2="120" y2="86" stroke="#00ccff" stroke-width="0.3" opacity="0.25" />
+    <!-- Status LEDs above housing -->
+    <circle cx="114" cy="67.5" r="0.8" fill="#003366" />
+    <circle cx="120" cy="66.5" r="0.8" fill="#00ffcc" filter="url(#glow)" />
+    <circle cx="126" cy="67.5" r="0.8" fill="#003366" />
+    <!-- Connection trace to implant -->
+    <path d="M128,73 Q132,70 130,66" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0.35" />
+
+    <!-- ====== NOSE ====== -->
+    <!-- Bridge highlight -->
+    <path d="M97,78 Q96,85 95,94" fill="none" stroke="#d4b890" stroke-width="2" opacity="0.3" stroke-linecap="round" />
+    <!-- Tip shadow -->
+    <path d="M93,94 Q96,98 98,94" fill="#c4956a" opacity="0.35" />
+    <!-- Nostrils -->
+    <ellipse cx="92" cy="96" rx="2" ry="1.2" fill="#a07050" opacity="0.4" />
+    <ellipse cx="100" cy="96" rx="2" ry="1.2" fill="#a07050" opacity="0.4" />
+
+    <!-- ====== MOUTH ====== -->
+    <!-- Upper lip -->
+    <path d="M88,110 Q92,107 96,108 Q100,106 104,108 Q108,107 112,110"
+          fill="#c08070" opacity="0.5" />
+    <!-- Lower lip -->
+    <path d="M89,112 Q96,118 100,117 Q104,118 111,112"
+          fill="#d09080" opacity="0.45" />
+    <!-- Lip line -->
+    <path d="M88,110 Q94,114 100,112 Q106,114 112,110"
+          fill="none" stroke="#8a5040" stroke-width="0.8" stroke-linecap="round" />
+    <!-- Smile creases -->
+    <path d="M86,109 L84,111" fill="none" stroke="#8a5040" stroke-width="0.5" opacity="0.3" stroke-linecap="round" />
+    <path d="M114,109 L116,111" fill="none" stroke="#8a5040" stroke-width="0.5" opacity="0.3" stroke-linecap="round" />
+
+    <!-- ====== STUBBLE ====== -->
+    <g fill="#8a6a4a" opacity="0.25">
+      <ellipse cx="82" cy="105" rx="1.5" ry="0.8" />
+      <ellipse cx="86" cy="107" rx="1.5" ry="0.8" />
+      <ellipse cx="90" cy="109" rx="1.5" ry="0.8" />
+      <ellipse cx="94" cy="110" rx="1.5" ry="0.8" />
+      <ellipse cx="98" cy="111" rx="1.5" ry="0.8" />
+      <ellipse cx="102" cy="111" rx="1.5" ry="0.8" />
+      <ellipse cx="106" cy="110" rx="1.5" ry="0.8" />
+      <ellipse cx="110" cy="109" rx="1.5" ry="0.8" />
+      <ellipse cx="114" cy="107" rx="1.5" ry="0.8" />
+      <ellipse cx="118" cy="105" rx="1.5" ry="0.8" />
+      <ellipse cx="89" cy="106" rx="1.2" ry="0.7" />
+      <ellipse cx="111" cy="106" rx="1.2" ry="0.7" />
+    </g>
+
+    <!-- ====== HAIR ====== -->
+    <!-- Base mass -->
+    <ellipse cx="100" cy="54" rx="45" ry="32" fill="#1a120a" />
     <!-- Hair sides -->
-    <path d="M58,65 Q56,90 60,110 Q56,95 56,70 Z" fill="#1a1a1a" />
-    <path d="M142,65 Q144,90 140,110 Q144,95 144,70 Z" fill="#1a1a1a" />
-    <!-- Hair texture lines -->
-    <g stroke="#252525" stroke-width="1" fill="none" opacity="0.6">
-      <path d="M65,55 Q80,48 95,52" />
-      <path d="M105,52 Q120,48 135,55" />
-      <path d="M72,48 Q88,42 100,45" />
-      <path d="M100,45 Q112,42 128,48" />
-    </g>
+    <path d="M55,60 Q55,85 58,95 Q55,85 55,60 Z" fill="#1a120a" />
+    <path d="M145,60 Q145,85 142,95 Q145,85 145,60 Z" fill="#1a120a" />
+    <!-- Forehead hairline (irregular wavy) -->
+    <path d="M62,52 Q70,43 80,46 Q88,42 96,44 Q104,41 112,44 Q120,43 128,47 Q135,46 138,53"
+          fill="none" stroke="#1a120a" stroke-width="8" stroke-linecap="round" />
+    <!-- Fill area above hairline -->
+    <path d="M62,52 Q70,43 80,46 Q88,42 96,44 Q104,41 112,44 Q120,43 128,47 Q135,46 138,53
+             Q140,40 100,36 Q60,40 62,52 Z" fill="#1a120a" />
+    <!-- Highlight streaks -->
+    <path d="M68,48 Q78,42 88,44" fill="none" stroke="#3a2a1a" stroke-width="1.2" opacity="0.3" stroke-linecap="round" />
+    <path d="M84,44 Q94,40 104,43" fill="none" stroke="#3a2a1a" stroke-width="1.0" opacity="0.25" stroke-linecap="round" />
+    <path d="M100,42 Q110,40 120,44" fill="none" stroke="#3a2a1a" stroke-width="1.1" opacity="0.3" stroke-linecap="round" />
+    <path d="M64,46 Q72,43 80,48" fill="none" stroke="#3a2a1a" stroke-width="0.8" opacity="0.2" stroke-linecap="round" />
+    <path d="M118,44 Q126,44 134,48" fill="none" stroke="#3a2a1a" stroke-width="0.9" opacity="0.25" stroke-linecap="round" />
+    <path d="M76,42 Q84,39 92,42" fill="none" stroke="#3a2a1a" stroke-width="0.7" opacity="0.2" stroke-linecap="round" />
+    <!-- Stray wisps -->
+    <path d="M56,62 Q52,68 55,72" fill="none" stroke="#1a120a" stroke-width="0.5" opacity="0.6" />
+    <path d="M58,58 Q53,62 55,66" fill="none" stroke="#1a120a" stroke-width="0.4" opacity="0.5" />
+    <path d="M142,58 Q148,62 145,66" fill="none" stroke="#1a120a" stroke-width="0.5" opacity="0.6" />
+    <path d="M144,62 Q148,65 146,70" fill="none" stroke="#1a120a" stroke-width="0.4" opacity="0.5" />
 
-    <!-- Left eye (organic) -->
-    <ellipse cx="78" cy="80" rx="10" ry="7" fill="white" />
-    <ellipse cx="78" cy="80" rx="5" ry="6" fill="#4a3728" />
-    <ellipse cx="78" cy="80" rx="2.5" ry="3" fill="#1a1a1a" />
-    <ellipse cx="76" cy="78" rx="1" ry="1" fill="white" opacity="0.8" />
+    <!-- ====== TEMPLE IMPLANT PLATE ====== -->
+    <!-- Skin integration blend (behind plate) -->
+    <circle cx="126" cy="63" r="14" fill="url(#skinBlend)" />
+    <!-- Main plate body -->
+    <rect x="114" y="54" width="24" height="18" rx="3" fill="url(#implantMetal)"
+          stroke="#00ccff" stroke-width="0.8" filter="url(#glow)" />
+    <!-- Accent grooves -->
+    <line x1="115" y1="58" x2="137" y2="58" stroke="#003366" stroke-width="0.4" opacity="0.6" />
+    <line x1="115" y1="62" x2="137" y2="62" stroke="#003366" stroke-width="0.4" opacity="0.6" />
+    <line x1="115" y1="66" x2="137" y2="66" stroke="#003366" stroke-width="0.4" opacity="0.6" />
+    <!-- Central glow node -->
+    <circle cx="126" cy="63" r="3.5" fill="#00ffcc" filter="url(#glowStrong)" />
+    <!-- Indicator ring inner -->
+    <circle cx="126" cy="63" r="5" fill="none" stroke="#00ccff" stroke-width="0.6" opacity="0.5" />
+    <!-- Indicator ring outer (dashed) -->
+    <circle cx="126" cy="63" r="6.5" fill="none" stroke="#00ccff" stroke-width="0.3"
+            opacity="0.3" stroke-dasharray="1.5 2" />
+    <!-- Data ports (vertical column on forward edge) -->
+    <circle cx="116" cy="57" r="1.2" fill="#001133" stroke="#00ccff" stroke-width="0.6" />
+    <circle cx="116" cy="63" r="1.2" fill="#001133" stroke="#00ccff" stroke-width="0.6" />
+    <circle cx="116" cy="69" r="1.2" fill="#001133" stroke="#00ccff" stroke-width="0.6" />
 
-    <!-- Left eyebrow -->
-    <path d="M65,72 Q78,67 88,72" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <!-- Neural traces -->
+    <!-- Trace A: up and back toward crown -->
+    <path d="M134,58 Q142,52 148,55 Q155,58 158,52" fill="none" stroke="#00ccff"
+          stroke-width="0.4" opacity="0.25" />
+    <circle cx="142" cy="54" r="0.7" fill="#00ccff" opacity="0.4" />
+    <circle cx="152" cy="56" r="0.7" fill="#00ccff" opacity="0.35" />
+    <circle cx="158" cy="52" r="0.7" fill="#00ccff" opacity="0.3" />
+    <!-- Trace B: to cybernetic eye -->
+    <path d="M128,70 Q130,73 128,73" fill="none" stroke="#00ccff"
+          stroke-width="0.5" opacity="0.35" />
+    <!-- Trace C: down toward jaw -->
+    <path d="M134,70 Q138,76 136,84 Q135,90 130,96" fill="none" stroke="#00ccff"
+          stroke-width="0.3" opacity="0.15" />
 
-    <!-- Right eye (cybernetic) - outer housing -->
-    <rect x="102" y="73" rx="3" ry="4" width="20" height="14" fill="#0a0a1e" stroke="#00ccff" stroke-width="1.5" filter="url(#glow)" />
-    <!-- Cybernetic eye lens - hexagonal -->
-    <polygon points="108,80 112,75 116,75 120,80 116,85 112,85" fill="#001133" stroke="#00ffcc" stroke-width="1" filter="url(#glow)" />
-    <!-- Cybernetic pupil (slit) -->
-    <ellipse cx="114" cy="80" rx="2" ry="5" fill="#00ffcc" filter="url(#glowStrong)" />
-    <!-- Targeting reticle rings -->
-    <circle cx="114" cy="80" r="6" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0.6" />
-    <circle cx="114" cy="80" r="3" fill="none" stroke="#00ccff" stroke-width="0.3" opacity="0.4" />
+    <!-- ====== AMBIENT CYBERNETIC LIGHTING ====== -->
+    <!-- Rim light on right face edge -->
+    <path d="M134,70 Q140,78 138,90 Q136,105 132,118"
+          fill="none" stroke="#00ccff" stroke-width="2.5" opacity="0.12" filter="url(#blurRim)" />
+    <path d="M142,60 Q144,52 140,45"
+          fill="none" stroke="#00ccff" stroke-width="2" opacity="0.08" filter="url(#blurRim)" />
 
-    <!-- Right "eyebrow" - tech bar -->
-    <rect x="100" y="70" width="24" height="2.5" rx="1" fill="#00ccff" opacity="0.7" filter="url(#glow)" />
-
-    <!-- Neural interface on right temple (cybernetic side) -->
+    <!-- Floating particles -->
     <g filter="url(#glow)">
-      <!-- Implant node -->
-      <circle cx="130" cy="68" r="3" fill="#00ffcc" opacity="0.8" />
-      <circle cx="130" cy="68" r="5" fill="none" stroke="#00ccff" stroke-width="0.8" opacity="0.5" />
-      <!-- Data lines from implant -->
-      <path d="M130,68 L145,60" stroke="#00ccff" stroke-width="0.8" opacity="0.6" />
-      <path d="M130,68 L148,70" stroke="#00ccff" stroke-width="0.6" opacity="0.4" />
-      <path d="M130,68 L143,80" stroke="#00ccff" stroke-width="0.8" opacity="0.6" />
-      <!-- Small data nodes -->
-      <circle cx="145" cy="60" r="1.5" fill="#00ffcc" opacity="0.7" />
-      <circle cx="148" cy="70" r="1" fill="#00ffcc" opacity="0.5" />
-      <circle cx="143" cy="80" r="1.5" fill="#00ffcc" opacity="0.7" />
-      <!-- Connection line to eye -->
-      <path d="M130,68 Q126,72 124,78" stroke="#00ccff" stroke-width="0.5" fill="none" opacity="0.5" />
-    </g>
-
-    <!-- Circuit traces on right side of head -->
-    <g stroke="#00ccff" stroke-width="0.6" fill="none" opacity="0.35">
-      <path d="M145,50 L155,45 L160,50" />
-      <path d="M148,55 L158,58 L162,55" />
-      <path d="M150,85 L158,88 L163,82" />
-      <circle cx="160" cy="50" r="0.8" fill="#00ccff" />
-      <circle cx="162" cy="55" r="0.8" fill="#00ccff" />
-      <circle cx="163" cy="82" r="0.8" fill="#00ccff" />
-    </g>
-
-    <!-- Nose -->
-    <path d="M95,82 Q94,94 92,98 Q98,100 99,98 Q97,94 96,82" fill="#1e1e30" opacity="0.6" />
-
-    <!-- Mouth - subtle smirk -->
-    <path d="M85,110 Q93,115 100,113 Q105,112 110,114" stroke="#0a0a15" stroke-width="2" fill="none" stroke-linecap="round" />
-
-    <!-- Facial hair / stubble -->
-    <g fill="#1a1a1a" opacity="0.4">
-      <ellipse cx="85" cy="108" rx="2" ry="1" />
-      <ellipse cx="90" cy="111" rx="2" ry="1" />
-      <ellipse cx="95" cy="112" rx="2" ry="1" />
-      <ellipse cx="100" cy="111" rx="2" ry="1" />
-      <ellipse cx="105" cy="110" rx="2" ry="1" />
-    </g>
-
-    <!-- Glasses / AR overlay frame -->
-    <path d="M62,78 Q78,74 92,78 L94,78 L96,78 Q96,78 108,78 Q108,78 122,74 Q122,74 132,78"
-          stroke="#334455" stroke-width="1.2" fill="none" opacity="0.6" />
-    <line x1="92" y1="78" x2="96" y2="78" stroke="#334455" stroke-width="1.2" opacity="0.6" />
-
-    <!-- Ambient particles -->
-    <g fill="#00ccff" opacity="0.3" filter="url(#glow)">
-      <circle cx="30" cy="40" r="0.8" />
-      <circle cx="170" cy="30" r="0.6" />
-      <circle cx="175" cy="120" r="0.7" />
-      <circle cx="25" cy="140" r="0.5" />
+      <circle cx="108" cy="52" r="1.0" fill="#00ccff" opacity="0.5" />
+      <circle cx="140" cy="50" r="0.6" fill="#00ccff" opacity="0.35" />
+      <circle cx="148" cy="60" r="1.2" fill="#00ccff" opacity="0.4" />
+      <circle cx="142" cy="74" r="0.8" fill="#00ccff" opacity="0.3" />
+      <circle cx="134" cy="48" r="0.5" fill="#00ccff" opacity="0.25" />
+      <circle cx="152" cy="68" r="0.7" fill="#00ccff" opacity="0.3" />
+      <circle cx="118" cy="48" r="0.6" fill="#00ccff" opacity="0.35" />
+      <circle cx="146" cy="82" r="0.9" fill="#00ccff" opacity="0.25" />
     </g>
 
   </g>
 
-  <!-- Outer ring -->
-  <circle cx="100" cy="100" r="99" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0.4" filter="url(#glow)" />
+  <!-- Outer border ring -->
+  <circle cx="100" cy="100" r="99" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0.35" filter="url(#glow)" />
   <circle cx="100" cy="100" r="100" fill="none" stroke="#001133" stroke-width="2" />
 </svg>
