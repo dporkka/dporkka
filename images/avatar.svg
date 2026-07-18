@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <!-- Glow filter for cybernetic elements -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glowStrong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <!-- Clip to circle -->
+    <clipPath id="circleClip">
+      <circle cx="100" cy="100" r="98" />
+    </clipPath>
+    <!-- Gradient for cybernetic eye -->
+    <radialGradient id="cybEye">
+      <stop offset="0%" stop-color="#00ffff" />
+      <stop offset="60%" stop-color="#0088ff" />
+      <stop offset="100%" stop-color="#003366" />
+    </radialGradient>
+    <radialGradient id="bgGrad">
+      <stop offset="0%" stop-color="#1a1a2e" />
+      <stop offset="100%" stop-color="#0a0a15" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#bgGrad)" />
+
+  <!-- All content clipped to circle -->
+  <g clip-path="url(#circleClip)">
+
+    <!-- Subtle hex grid background (circuit board feel) -->
+    <g opacity="0.08" stroke="#4488ff" stroke-width="0.5" fill="none">
+      <polygon points="20,80 35,89 35,107 20,116 5,107 5,89" />
+      <polygon points="50,80 65,89 65,107 50,116 35,107 35,89" />
+      <polygon points="80,80 95,89 95,107 80,116 65,107 65,89" />
+      <polygon points="110,80 125,89 125,107 110,116 95,107 95,89" />
+      <polygon points="140,80 155,89 155,107 140,116 125,107 125,89" />
+      <polygon points="170,80 185,89 185,107 170,116 155,107 155,89" />
+      <polygon points="35,98 50,107 50,125 35,134 20,125 20,107" />
+      <polygon points="65,98 80,107 80,125 65,134 50,125 50,107" />
+      <polygon points="95,98 110,107 110,125 95,134 80,125 80,107" />
+      <polygon points="125,98 140,107 140,125 125,134 110,125 110,107" />
+      <polygon points="155,98 170,107 170,125 155,134 140,125 140,107" />
+    </g>
+
+    <!-- Shoulders -->
+    <ellipse cx="100" cy="200" rx="80" ry="50" fill="#1c1c2e" />
+
+    <!-- Neck -->
+    <rect x="88" y="130" width="24" height="30" fill="#2a2a3e" rx="5" />
+
+    <!-- Head -->
+    <ellipse cx="100" cy="85" rx="42" ry="50" fill="#2a2a3e" />
+
+    <!-- Hair -->
+    <ellipse cx="100" cy="58" rx="44" ry="30" fill="#1a1a1a" />
+    <ellipse cx="100" cy="70" rx="43" ry="22" fill="#111111" />
+    <!-- Hair sides -->
+    <path d="M58,65 Q56,90 60,110 Q56,95 56,70 Z" fill="#1a1a1a" />
+    <path d="M142,65 Q144,90 140,110 Q144,95 144,70 Z" fill="#1a1a1a" />
+    <!-- Hair texture lines -->
+    <g stroke="#252525" stroke-width="1" fill="none" opacity="0.6">
+      <path d="M65,55 Q80,48 95,52" />
+      <path d="M105,52 Q120,48 135,55" />
+      <path d="M72,48 Q88,42 100,45" />
+      <path d="M100,45 Q112,42 128,48" />
+    </g>
+
+    <!-- Left eye (organic) -->
+    <ellipse cx="78" cy="80" rx="10" ry="7" fill="white" />
+    <ellipse cx="78" cy="80" rx="5" ry="6" fill="#4a3728" />
+    <ellipse cx="78" cy="80" rx="2.5" ry="3" fill="#1a1a1a" />
+    <ellipse cx="76" cy="78" rx="1" ry="1" fill="white" opacity="0.8" />
+
+    <!-- Left eyebrow -->
+    <path d="M65,72 Q78,67 88,72" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round" />
+
+    <!-- Right eye (cybernetic) - outer housing -->
+    <rect x="102" y="73" rx="3" ry="4" width="20" height="14" fill="#0a0a1e" stroke="#00ccff" stroke-width="1.5" filter="url(#glow)" />
+    <!-- Cybernetic eye lens - hexagonal -->
+    <polygon points="108,80 112,75 116,75 120,80 116,85 112,85" fill="#001133" stroke="#00ffcc" stroke-width="1" filter="url(#glow)" />
+    <!-- Cybernetic pupil (slit) -->
+    <ellipse cx="114" cy="80" rx="2" ry="5" fill="#00ffcc" filter="url(#glowStrong)" />
+    <!-- Targeting reticle rings -->
+    <circle cx="114" cy="80" r="6" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0.6" />
+    <circle cx="114" cy="80" r="3" fill="none" stroke="#00ccff" stroke-width="0.3" opacity="0.4" />
+
+    <!-- Right "eyebrow" - tech bar -->
+    <rect x="100" y="70" width="24" height="2.5" rx="1" fill="#00ccff" opacity="0.7" filter="url(#glow)" />
+
+    <!-- Neural interface on right temple (cybernetic side) -->
+    <g filter="url(#glow)">
+      <!-- Implant node -->
+      <circle cx="130" cy="68" r="3" fill="#00ffcc" opacity="0.8" />
+      <circle cx="130" cy="68" r="5" fill="none" stroke="#00ccff" stroke-width="0.8" opacity="0.5" />
+      <!-- Data lines from implant -->
+      <path d="M130,68 L145,60" stroke="#00ccff" stroke-width="0.8" opacity="0.6" />
+      <path d="M130,68 L148,70" stroke="#00ccff" stroke-width="0.6" opacity="0.4" />
+      <path d="M130,68 L143,80" stroke="#00ccff" stroke-width="0.8" opacity="0.6" />
+      <!-- Small data nodes -->
+      <circle cx="145" cy="60" r="1.5" fill="#00ffcc" opacity="0.7" />
+      <circle cx="148" cy="70" r="1" fill="#00ffcc" opacity="0.5" />
+      <circle cx="143" cy="80" r="1.5" fill="#00ffcc" opacity="0.7" />
+      <!-- Connection line to eye -->
+      <path d="M130,68 Q126,72 124,78" stroke="#00ccff" stroke-width="0.5" fill="none" opacity="0.5" />
+    </g>
+
+    <!-- Circuit traces on right side of head -->
+    <g stroke="#00ccff" stroke-width="0.6" fill="none" opacity="0.35">
+      <path d="M145,50 L155,45 L160,50" />
+      <path d="M148,55 L158,58 L162,55" />
+      <path d="M150,85 L158,88 L163,82" />
+      <circle cx="160" cy="50" r="0.8" fill="#00ccff" />
+      <circle cx="162" cy="55" r="0.8" fill="#00ccff" />
+      <circle cx="163" cy="82" r="0.8" fill="#00ccff" />
+    </g>
+
+    <!-- Nose -->
+    <path d="M95,82 Q94,94 92,98 Q98,100 99,98 Q97,94 96,82" fill="#1e1e30" opacity="0.6" />
+
+    <!-- Mouth - subtle smirk -->
+    <path d="M85,110 Q93,115 100,113 Q105,112 110,114" stroke="#0a0a15" stroke-width="2" fill="none" stroke-linecap="round" />
+
+    <!-- Facial hair / stubble -->
+    <g fill="#1a1a1a" opacity="0.4">
+      <ellipse cx="85" cy="108" rx="2" ry="1" />
+      <ellipse cx="90" cy="111" rx="2" ry="1" />
+      <ellipse cx="95" cy="112" rx="2" ry="1" />
+      <ellipse cx="100" cy="111" rx="2" ry="1" />
+      <ellipse cx="105" cy="110" rx="2" ry="1" />
+    </g>
+
+    <!-- Glasses / AR overlay frame -->
+    <path d="M62,78 Q78,74 92,78 L94,78 L96,78 Q96,78 108,78 Q108,78 122,74 Q122,74 132,78"
+          stroke="#334455" stroke-width="1.2" fill="none" opacity="0.6" />
+    <line x1="92" y1="78" x2="96" y2="78" stroke="#334455" stroke-width="1.2" opacity="0.6" />
+
+    <!-- Ambient particles -->
+    <g fill="#00ccff" opacity="0.3" filter="url(#glow)">
+      <circle cx="30" cy="40" r="0.8" />
+      <circle cx="170" cy="30" r="0.6" />
+      <circle cx="175" cy="120" r="0.7" />
+      <circle cx="25" cy="140" r="0.5" />
+    </g>
+
+  </g>
+
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="99" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0.4" filter="url(#glow)" />
+  <circle cx="100" cy="100" r="100" fill="none" stroke="#001133" stroke-width="2" />
+</svg>
