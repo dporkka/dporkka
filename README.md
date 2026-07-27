@@ -25,7 +25,7 @@ I build tools that make developers and machines smarter together — autonomous 
 | Project | Description |
 |---|---|
 | **[Agentvault](https://github.com/dporkka/agentvault)** | Local-first knowledge OS for notes, decisions, research, and agent-readable context. |
-| **[AI Dev Control Plane](https://github.com/dporkka/dev-plane)** | Self-hostable AI development control plane. Takes tasks from prompts, issues, Slack and turns them into branches, PRs, and releases. |
+| **[Dev Plane](https://github.com/dporkka/dev-plane)** | Self-hostable AI development control plane. Takes tasks from prompts, issues, Slack and turns them into branches, PRs, and releases. |
 | **[Nulang](https://github.com/dporkka/nulang)** | Actor language and runtime for autonomous distributed software systems. Built in Rust. |
 | **[AI Build Coach](https://build.davidporkka.com)** | Turn vague software ideas into complete architecture plans. |
 
