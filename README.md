@@ -6,10 +6,6 @@
 
 ---
 
-I build tools that make developers and machines smarter together — autonomous agents, distributed runtimes, and dev control planes. I kept vascular tissue alive with Python in a past life, and I've been chasing hard systems problems ever since.
-
----
-
 ### Languages & Tools
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)](https://go.dev)
