@@ -31,7 +31,6 @@
 
 ### Dev Environment
 
-- **[Dotfiles](https://github.com/dporkka/dotfiles)** — Neovim + tmux + WezTerm command center. Portable, AI-native, Nix + home-manager.
 - **[Dev Setup](https://github.com/dporkka/dev-setup)** — Lightweight LazyVim starter for JS/TS, Go, Python, Rust on remote VPS.
 
 ---
