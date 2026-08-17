@@ -34,7 +34,7 @@
 |---|---|
 | **[Nulang.Cloud](https://nulang.cloud)** | Cloud platform for hosting and deploying Nulang applications and other software |
 | **[Boardzie](https://www.boardzie.com)** | The Zillow of billboards that lists over 100,000 billboards in the United States |
-| **[Boardzie](https://map.signvalue.com)** | Inventory map developed for one of the largest U.S. outdoor advertising brokers  |
+| **[SignValue Map](https://map.signvalue.com)** | Inventory map developed for one of the largest U.S. outdoor advertising brokers  |
 | **[Tramote](https://capeverde.tramote.com/)** | Website and lead generation system built for a multi-billion dollar real estate company |
 | **[Dev Coach](https://build.davidporkka.com)** | Turn vague software ideas into complete architecture plans |
 
