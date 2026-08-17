@@ -22,9 +22,9 @@
 
 | Project | Description |
 |---|---|
+| **[Nulang](https://github.com/dporkka/nulang)** | Actor language and runtime for building resilient distributed software systems |
 | **[Agentvault](https://github.com/dporkka/agentvault)** | Local-first knowledge OS for notes, decisions, research, and agent-readable context |
 | **[Dev Plane](https://github.com/dporkka/dev-plane)** | Takes tasks from prompts, issues, Slack and turns them into branches, PRs, and releases |
-| **[Nulang](https://github.com/dporkka/nulang)** | Actor language and runtime for building resilient distributed software systems |
 
 ---
 
