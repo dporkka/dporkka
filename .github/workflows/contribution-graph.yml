@@ -1,0 +1,46 @@
+name: Generate contribution graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/contribution-graph.yml"
+      - "scripts/generate_contribution_graph.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-graph
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution graph
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: dporkka
+        run: python3 scripts/generate_contribution_graph.py
+
+      - name: Commit updated graph
+        run: |
+          if [[ -z "$(git status --porcelain -- images/contribution-graph.svg)" ]]; then
+            echo "Contribution graph is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/contribution-graph.svg
+          git commit -m "chore: update contribution graph"
+          git push
