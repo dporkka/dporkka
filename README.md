@@ -18,6 +18,16 @@
 
 ---
 
+### Commit Activity
+
+<p align="center">
+  <a href="https://github.com/dporkka">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dporkka&theme=github-compact&hide_border=true&area=true" alt="David Porkka's GitHub commit activity graph" />
+  </a>
+</p>
+
+---
+
 ### Open Source Projects
 
 | Project | Description |
