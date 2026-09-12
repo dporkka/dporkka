@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="https://github.com/dporkka">
-    <img src="https://ghchart.rshah.org/dporkka" alt="David Porkka's GitHub contribution graph" />
+    <img src="./images/contribution-graph.svg" alt="David Porkka's GitHub contribution graph" />
   </a>
 </p>
 
