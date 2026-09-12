@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="https://github.com/dporkka">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dporkka&theme=github-compact&hide_border=true&area=true" alt="David Porkka's GitHub commit activity graph" />
+    <img src="https://ghchart.rshah.org/dporkka" alt="David Porkka's GitHub contribution graph" />
   </a>
 </p>
 
