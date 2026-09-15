@@ -21,12 +21,12 @@
 ### Commit Activity
 
 <p align="center">
-  <a href="./COMMITS.md">
-    <img src="./images/contribution-graph.svg" alt="David Porkka's GitHub contribution graph" />
+  <a href="https://dporkka.github.io/dporkka/commits.html">
+    <img src="https://ghchart.rshah.org/dporkka" alt="David Porkka's GitHub contribution graph" />
   </a>
 </p>
 <p align="center">
-  <sub>Tap the graph to see exact commit counts for every day.</sub>
+  <sub>Tap the graph, then tap a day to see the exact public Git commit count.</sub>
 </p>
 
 ---
