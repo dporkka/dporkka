@@ -26,21 +26,21 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Generate contribution graph and daily commit counts
+      - name: Generate contribution graph
         env:
-          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: dporkka
         run: python3 scripts/generate_contribution_graph.py
 
-      - name: Commit updated activity data
+      - name: Commit updated graph
         run: |
-          if [[ -z "$(git status --porcelain -- images/contribution-graph.svg COMMITS.md)" ]]; then
-            echo "Contribution graph and commit counts are already current."
+          if [[ -z "$(git status --porcelain -- images/contribution-graph.svg)" ]]; then
+            echo "Contribution graph is already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add images/contribution-graph.svg COMMITS.md
-          git commit -m "chore: update contribution graph and commit counts"
+          git add images/contribution-graph.svg
+          git commit -m "chore: update contribution graph"
           git push
