@@ -5,19 +5,24 @@
 </p>
 
 ---
+
 <div align="center">
   
 ### Languages & Tools
 
-[![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)](https://go.dev)
+[![Go](https://img.shields.io/badge/Go-007d9c?style=flat&logo=go&logoColor=white)](https://go.dev)
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](https://rust-lang.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://typescriptlang.org)
-[![Python](https://img.shields.io/badge/Python-3178C6?style=flat&logo=typescript&logoColor=white)](https://python.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)](https://typescriptlang.org)
+[![Python](https://img.shields.io/badge/Python-ffd343?style=flat&logo=python&logoColor=white)](https://python.org)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)](https://postgresql.org)
+[![SQLite](https://img.shields.io/badge/SQLite-044a64?style=flat&logo=sqlite&logoColor=#044a64)](https://sqlite.org)
+
 </div>
 
 ---
 
+<div align="center">
+  
 ### Commit Activity
 
 <p align="center">
@@ -25,11 +30,12 @@
     <img src="https://ghchart.rshah.org/dporkka" alt="David Porkka's GitHub contribution graph" />
   </a>
 </p>
-<p align="center">
-  <sub>Tap the graph, then tap a day to see the exact public Git commit count.</sub>
-</p>
 
+</div>
+  
 ---
+
+<div align="center">
 
 ### Open Source Projects
 
@@ -39,7 +45,11 @@
 | **[Agentvault](https://github.com/dporkka/agentvault)** | Local-first knowledge OS for notes, decisions, research, and agent-readable context |
 | **[Dev Plane](https://github.com/dporkka/dev-plane)** | Takes tasks from prompts, issues, Slack and turns them into branches, PRs, and releases |
 
+</div>
+
 ---
+
+<div align="center">
 
 ### Other Projects
 
@@ -51,12 +61,14 @@
 | **[Tramote](https://capeverde.tramote.com/)** | Website and lead generation system built for a multi-billion dollar real estate company |
 | **[Dev Coach](https://build.davidporkka.com)** | Turn vague software ideas into complete architecture plans |
 
+</div>
+
 ---
 
-**📬 Get in Touch**
+<div align="center">
+  
+### Get in Touch
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/david-porkka/)
-- 💻 [GitHub](https://github.com/dporkka)
-- 🐦 [Twitter / X](https://x.com/dporkka)
-- 🌐 [Website](https://www.davidporkka.com)
-- 📄 [Resume](https://davidporkka.com/resume)
+🔗 [LinkedIn](https://www.linkedin.com/in/david-porkka/) &nbsp; 💻 [GitHub](https://github.com/dporkka) &nbsp; 🌐 [Website](https://www.davidporkka.com) &nbsp; 📄 [Resume](https://davidporkka.com/resume)
+
+</div>
