@@ -18,20 +18,6 @@
 [![SQLite](https://img.shields.io/badge/SQLite-044a64?style=flat&logo=sqlite&logoColor=#044a64)](https://sqlite.org)
 
 </div>
-
----
-
-<div align="center">
-  
-### Commit Activity
-
-<p align="center">
-  <a href="https://dporkka.github.io/dporkka/commits.html">
-    <img src="https://ghchart.rshah.org/dporkka" alt="David Porkka's GitHub contribution graph" />
-  </a>
-</p>
-
-</div>
   
 ---
 
